@@ -15,7 +15,7 @@ int main(void)
     while (i < lastPage && i > 0)
     {
         printf("%i, ", i);
-        i = i + 2;
+        i += 2;
     }
     if (i == lastPage)
     {
