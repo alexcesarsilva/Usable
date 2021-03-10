@@ -10,7 +10,7 @@ public class Print {
 		System.out.print("Type last page: ");
 		int lastPage = choose.nextInt();
 
-		int i = 0;
+		int i = firstPage;
 		for (i = firstPage; i < lastPage; i+= 2)
 		{
 			System.out.print(i + ", ");
